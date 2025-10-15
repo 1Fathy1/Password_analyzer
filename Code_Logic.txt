@@ -1,0 +1,34 @@
+8. Password Analyzer Tool 
+
+Checks password strength using entropy.
+
+Entropy password formal : E = L log2(R) 
+                              L = length of password
+                              R = Total character Range
+
+    [    Total character Range ] 
+    ----------------------------
+      number       |     10
+      lowercase    |     26
+      uppercase    |     26
+      symbols      |     32 
+    
+Logic code : 
+    - First calculate character range 
+    - calculate a bit of entropy : E = L log2(R) 
+    - Power of password
+    - suggest strong password 
+    - make strong password 
+        . at last one number
+        . at last one lowercase
+        . at last one uppercase
+        . at last one symbol
+    ## output . 
+        - value of bit of entropy 
+        - power of password 
+        - suggest strong password 
+        - Hacker need to try 2 ^ E to crack your password 
+        - NIST Bad Passwords result
+    - transaction with file
+    - make a report 
+    
